@@ -1,3 +1,8 @@
+# List of problems that I have solved
+- Problem 1
+- Problem 2
+- Problem 4
+
 # Problem 1 Complexity
 
 ### rotate() function:
