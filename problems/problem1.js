@@ -13,7 +13,7 @@ const rotate = (grid, k) => {
             dummy.push(grid[j][i])
         }
         return dummy.reverse() // {3}
-    })
+    });
    return rotate(rotated, k - 1); // {4}
 }
 

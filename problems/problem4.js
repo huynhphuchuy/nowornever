@@ -9,7 +9,7 @@ const checkAvailability = (arrivals, departures, k) => {
     let arrival = arrivals.shift();
     for (let i = 0; i < departures.length; i++) {
         while (arrival < departures[i]) {
-            arrival = arrivals.shift()
+            arrival = arrivals.shift();
             k -= 1;
             if (k < 0) return false;
         }

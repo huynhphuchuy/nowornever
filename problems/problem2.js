@@ -72,7 +72,7 @@ const calculateBundle = ({ age, student, income }) => {
     });
 
     const highestValuedBundle = satisfiedBundles.reduce((prev, current) => {
-        return (prev.value > current.value) ? prev : current
+        return (prev.value > current.value) ? prev : current;
     })
 
     return highestValuedBundle;
@@ -154,7 +154,7 @@ const startCLI = async () => {
 
     console.log(`    * Recommended bundle for you: ${recommendedBundle.name}`.blue);
 
-    const theRestBundles = bundles.filter(b => b.id !== recommendedBundle.id)
+    const theRestBundles = bundles.filter(b => b.id !== recommendedBundle.id);
 
     const bundle = await prompts([
         {
