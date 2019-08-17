@@ -12,10 +12,10 @@
 - Code line {4} is a recursion considered as an interation with O(m) complexity (m = k % 4)
 - Combining above funtions's complexity, we have a the complexity: O(m*n^3)
 
-### Go through the possible value of m
-- If (K % 4) === 0 the complexity is O(1);
-- If (K % 4) === 1 the complexity is O(n^3)
-- If (K % 4) >= 2 the complexity is O(m*n^3) 
+### Go through the possible values of `m`
+- If (k % 4) === 0 the complexity is O(1);
+- If (k % 4) === 1 the complexity is O(n^3)
+- If (k % 4) >= 2 the complexity is O(m*n^3) 
 but the m is an interger and always within [0, 3] so the final complexity should be O(n^3)
 
 # How to run all the test suites with jest
