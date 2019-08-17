@@ -1,4 +1,4 @@
-### Problem 1 Complexity
+# Problem 1 Complexity
 
 * rotate() function:
 - Code line {3} use Array.prototype.reverse, that will take O(n) complexity
@@ -13,10 +13,12 @@ Go through the possible value of m
 - If (K % 4) >= 2 the complexity is O(m*n^3) 
 but the m is an interger and always within [0, 3] so the final complexity should be O(n^3)
 
-### How to run the Problem 2 's CLI application:
+# How to run all the test suites with jest
+
+- Run `npm run test`
+
+# How to run the Problem 2 's CLI application:
 
 - Run `npm run prob2cli`
 
-### How to run all the test suites with jest
-
-- Run `npm run test`
+![cli screenshot](https://raw.githubusercontent.com/huynhphuchuy/nowornever/master/cli.png)
