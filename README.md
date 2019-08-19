@@ -19,9 +19,9 @@
 but the m is an interger and always within [0, 3] so the final complexity should be O(n^3)
 
 # Problem 4 Complexity
-- Code line {1], {4} with Array.prototype.shift take O(1) complexity
+- Code line {1}, {4} with Array.prototype.shift take O(1) complexity
 - Code line {2} has a loop with O(n-1) complexity
-- Code line {3} has a loop in the worst case gonna have `n` iteration and will take O(n-1) complexity
+- Code line {3} has a loop in the worst case gonna have `n-1` iteration and will take O(n-1) complexity
 - The final complexity would be O(max(1, n^2*1)) = O(n^2)
 
 # How to run all the test suites with jest
