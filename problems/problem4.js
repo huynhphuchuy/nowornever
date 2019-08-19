@@ -6,10 +6,10 @@
  * @return {boolean} The availability of hotel reservation.
 **/
 const checkAvailability = (arrivals, departures, k) => {
-    let arrival = arrivals.shift();
-    for (let i = 0; i < departures.length; i++) {
-        while (arrival < departures[i]) {
-            arrival = arrivals.shift();
+    let arrival = arrivals.shift(); // {1}
+    for (let i = 0; i < departures.length; i++) { // {2}
+        while (arrival < departures[i]) { // {3}
+            arrival = arrivals.shift(); // {4}
             k -= 1;
             if (k < 0) return false;
         }
